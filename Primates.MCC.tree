@@ -1,0 +1,114 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=12;
+	taxlabels
+	Gorilla
+	Homo_sapiens
+	Hylobates
+	Lemur_catta
+	'M._fascicularis'
+	'M._mulatta'
+	'M._sylvanus'
+	Macaca_fuscata
+	Pan
+	Pongo
+	Saimiri_sciureus
+	Tarsius_syrichta
+;
+end;
+
+begin trees;
+	tree TREE1 = [&R] ((((((Gorilla[&height=5.796325313914247E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=8.486843004737004,length_95%_HPD={6.118217588004576,11.13383742568034},length_median=8.338805750426971,length_range={4.943516032653669,16.609255129660625}]:8.486843,(Homo_sapiens[&height=5.701691431238096E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=5.936935403991991,length_95%_HPD={4.996390224903159,6.958866662661123},length_median=5.943728300491472,length_range={4.229066631810085,7.343990512123597}]:5.936935,Pan[&height=5.701691431238096E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=5.936935403991991,length_95%_HPD={4.996390224903159,6.958866662661123},length_median=5.943728300491472,length_range={4.229066631810085,7.343990512123597}]:5.936935)[&height=5.936935403991997,height_95%_HPD={4.996390224903159,6.958866662661137},height_median=5.943728300491472,height_range={4.229066631810092,7.343990512123597},length=2.5499076007449917,length_95%_HPD={0.5737714126530733,4.750614886355805},length_median=2.3621957623518313,length_range={0.2870088556095638,10.254095490096688},posterior=1.0]:2.549908)[&height=8.486843004737013,height_95%_HPD={6.118217588004576,11.133837425680355},height_median=8.338805750426971,height_range={4.943516032653669,16.609255129660653},length=12.225974726674371,length_95%_HPD={7.134524417205796,17.91766737804747},length_median=12.011137446333152,length_range={5.059529774925487,26.2334754164809},posterior=1.0]:12.221908,Pongo[&height=5.409903626319964E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=20.716400590417898,length_95%_HPD={14.205356266804671,27.894455006511265},length_median=20.461959434528552,length_range={12.293490440370107,39.73069992605724}]:20.708751)[&height=20.708750703331027,height_95%_HPD={13.913982497178367,27.546507977316608},height_median=20.458111202412383,height_range={12.293490440370121,39.73069992605727},length=6.068223860060012,length_95%_HPD={1.8120444069163852,10.667525524330443},length_median=5.827850403628958,length_range={1.012674521458237,17.768188626256546},posterior=0.9977802441731409]:6.062404,Hylobates[&height=5.6622606467896995E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=26.76757161619928,length_95%_HPD={17.895587535103523,36.4443489247831},length_median=26.4339489961571,length_range={16.184961549922903,47.72776243615948}]:26.771154)[&height=26.771154475205787,height_95%_HPD={17.895587535103523,36.4443489247831},height_median=26.435004056420368,height_range={16.184961549922903,47.72776243615951},length=20.81948455050968,length_95%_HPD={11.663198883750901,31.272937435267536},length_median=20.183051808317273,length_range={8.643859181056278,42.950950440401044},posterior=1.0]:20.819485,(('M._fascicularis'[&height=5.291611272974775E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=6.070526030425201,length_95%_HPD={3.9856772119121047,8.58657499542835},length_median=6.00102425604274,length_range={3.08949947257247,10.298698890771618}]:6.070526,('M._mulatta'[&height=5.370472841871567E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=1.938247890402624,length_95%_HPD={1.1611160048953053,2.945353182916051},length_median=1.8959316955345287,length_range={0.787327584441357,3.6727151994184766}]:1.938248,Macaca_fuscata[&height=5.370472841871567E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=1.938247890402624,length_95%_HPD={1.1611160048953053,2.945353182916051},length_median=1.8959316955345287,length_range={0.787327584441357,3.6727151994184766}]:1.938248)[&height=1.9382478904026295,height_95%_HPD={1.1611160048953195,2.945353182916051},height_median=1.8959316955345429,height_range={0.787327584441357,3.672715199418491},length=4.1322781400225885,length_95%_HPD={2.249694745167929,6.053572876763539},length_median=4.019328114205351,length_range={1.8249636569390333,7.962307070439209},posterior=1.0]:4.132278)[&height=6.070526030425209,height_95%_HPD={3.9856772119121047,8.586574995428364},height_median=6.001024256042754,height_range={3.089499472572477,10.298698890771618},length=4.251912820399639,length_95%_HPD={1.5824054378071537,6.698079800021404},length_median=4.155266523297513,length_range={1.0677426392520388,10.862155352188893},posterior=1.0]:4.251913,'M._sylvanus'[&height=5.583399077892907E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=10.322438850824849,length_95%_HPD={6.874527905020294,14.56534562033633},length_median=10.191072409513168,length_range={5.74222298454022,18.405629914053392}]:10.322439)[&height=10.322438850824858,height_95%_HPD={6.874527905020301,14.56534562033633},height_median=10.191072409513183,height_range={5.742222984540227,18.405629914053407},length=37.26820017489063,length_95%_HPD={23.154395680482452,51.32998181731709},length_median=36.57217350440274,length_range={21.20327421069729,67.10543391323088},posterior=1.0]:37.2682)[&height=47.59063902571546,height_95%_HPD={29.746329524626468,63.73372471919623},height_median=46.69840359142417,height_range={28.75149296661387,83.58187994427077},length=18.085411000795325,length_95%_HPD={7.065600553019145,30.969271142957716},length_median=17.23337652967382,length_range={3.500012649851598,42.56908062280236},posterior=1.0]:18.085411,Saimiri_sciureus[&height=5.670146803679379E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=65.67605002651074,length_95%_HPD={40.8158028246639,91.44921956441982},length_median=64.39298185664968,length_range={35.46097833474091,125.2713181728298}]:65.67605)[&height=65.67605002651074,height_95%_HPD={40.815802824663905,91.44921956441982},height_median=64.3929818566497,height_range={35.460978334740915,125.27131817282982},length=19.734380691472403,length_95%_HPD={7.603718440286421,33.98892934023698},length_median=18.640740188469593,length_range={3.5116123766161422,57.91037490027321},posterior=1.0]:19.734381,(Lemur_catta[&height=5.670146803679379E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=62.63821032785929,length_95%_HPD={39.31239620261253,90.16891421305577},length_median=61.16044962772884,length_range={29.48080846296591,120.27279452734035}]:62.63821,Tarsius_syrichta[&height=5.670146803679379E-15,height_95%_HPD={0.0,1.4210854715202004E-14},height_median=0.0,height_range={0.0,2.8421709430404007E-14},length=62.63821032785929,length_95%_HPD={39.31239620261253,90.16891421305577},length_median=61.16044962772884,length_range={29.48080846296591,120.27279452734035}]:62.63821)[&height=62.638210327859305,height_95%_HPD={39.31239620261254,90.16891421305577},height_median=61.16044962772885,height_range={29.480808462965918,120.27279452734038},length=22.772220390124012,length_95%_HPD={9.229137920566735,37.05013475476689},length_median=22.134806701149415,length_range={4.097312373568428,52.89930702259766},posterior=1.0]:22.77222)[&height=85.41043071798325,height_95%_HPD={53.592370878783115,118.83084722563696},height_median=83.95398780919075,height_range={46.05376538806942,165.05158046455284},length=0.0,posterior=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="height_95%_HPD";
+	set nodeBars.isShown=true;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="posterior";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=23;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=18.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=25.0;
+	set scaleAxis.minorTicks=5.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=true;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=9.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
